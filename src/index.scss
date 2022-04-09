@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+// /*Fonts*/
+// @font-face {
+//   font-family: 'eina01bold';
+//   src: url('./src/fonts/eina01-bold-webfont.woff2') format ('woff2'),
+//     url('./src/fonts/eina01-bold-webfont.woff') format ('woff');
+//   font-weight: bold;
+//   font-style: normal;
+// }
+
+// @font-face {
+//   font-family: 'eina01regular';
+//   src: url('./src/fonts/eina01-regular-webfont.woff2') format ('woff2'),
+//     url('./src/fonts/eina01-regular-webfont.woff') format ('woff');
+//   font-weight: normal;
+//   font-style: normal;
+// }
+
+// @font-face {
+//   font-family: 'eina01semibold';
+//   src: url('./src/fonts/eina01-semibold-webfont.woff2') format ('woff2'),
+//     url('./src/fonts/eina01-semibold-webfont.woff') format ('woff');
+//   font-weight: normal;
+//   font-style: normal;
+// }
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

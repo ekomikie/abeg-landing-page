@@ -1,0 +1,147 @@
+.hero-bg {
+  position: relative;
+
+  width: 92%;
+  background-color: #753ff6;
+  border-radius: 42px;
+  margin: 3.8rem auto 0;
+
+  @media screen and (min-width: 768px) {
+    width: 89%;
+  }
+  @media screen and (min-width: 1024px) {
+    width: 91%;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 93.5%;
+  }
+  .left-box {
+    width: 87.5%;
+
+    @media screen and (min-width: 768px) {
+      width: 49%;
+      padding-left: 1.5rem;
+      margin-top: 2.4rem;
+    }
+    @media screen and (min-width: 1024px) {
+      padding-left: 3.5rem;
+    }
+    @media screen and (min-width: 1200px) {
+      padding-left: 9rem;
+    }
+
+    .logo-box {
+      width: 3.85rem;
+      @media screen and (min-width: 1024px) {
+        width: 4.3rem;
+      }
+      @media screen and (min-width: 1200px) {
+        width: 5rem;
+      }
+    }
+
+    h1 {
+      max-width: 370px;
+      font-size: 2.2rem;
+      font-family: 'Roboto', sans-serif;
+      line-height: 1;
+      font-weight: bold;
+      @media screen and (min-width: 768px) {
+        max-width: 97%;
+        font-size: 2.55rem;
+        font-weight: bolder;
+      }
+      @media screen and (min-width: 1024px) {
+        max-width: 90%;
+        font-size: 2.9rem;
+        font-weight: bolder;
+      }
+      @media screen and (min-width: 1200px) {
+        max-width: 90%;
+        font-size: 3.5rem;
+      }
+    }
+    p {
+      font-family: 'Roboto', sans-serif;
+      font-size: 1rem;
+      color: #fff;
+      line-height: 1.3;
+      max-width: 290px;
+      opacity: 0.8;
+
+      @media screen and (min-width: 768px) {
+        max-width: 97%;
+      }
+      @media screen and (min-width: 1024px) {
+        max-width: 89%;
+        font-size: 1.2rem;
+      }
+      @media screen and (min-width: 1200px) {
+        max-width: 85%;
+        font-size: 1.2rem;
+      }
+    }
+
+    .barcode-wrapper {
+      display: none;
+      position: relative;
+      @media screen and (min-width: 768px) {
+        width: 100%;
+        display: flex;
+      }
+
+      .barcode-text-box {
+        p {
+          max-width: 80px;
+          font-family: 'Roboto', sans-serif;
+          font-size: 0.9rem;
+          font-weight: 900;
+          transform: rotate(-1deg);
+          @media screen and (min-width: 1200px) {
+            font-size: 1.1rem;
+            font-weight: bolder;
+          }
+        }
+      }
+      .barcode-arrow {
+        position: absolute;
+        top: 60px;
+        @media screen and (min-width: 1200px) {
+          top: 75px;
+        }
+      }
+      .barcode-img-box {
+        width: 110px;
+        transform: rotate(3deg);
+
+        @media screen and (min-width: 1200px) {
+          width: 120px;
+        }
+      }
+    }
+  }
+  .right-box {
+    @media screen and (min-width: 768px) {
+      padding-top: 2.6rem;
+      padding-right: 2rem;
+    }
+
+    @media screen and (min-width: 1024px) {
+      padding-right: 3.5rem;
+    }
+    @media screen and (min-width: 1200px) {
+      padding-right: 9rem;
+    }
+    .image-lg {
+      @media screen and (min-width: 768px) {
+        width: 260px;
+      }
+      @media screen and (min-width: 1024px) {
+        width: 310px;
+      }
+      @media screen and (min-width: 1024px) {
+        width: 358px;
+      }
+    }
+  }
+}

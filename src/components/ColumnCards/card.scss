@@ -1,0 +1,544 @@
+.send-class {
+  background-color: rgba(117, 63, 246, 0.2);
+  border-radius: 28px;
+  width: 100%;
+  transition: all 0.3s ease-in;
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+
+  .icon-box {
+    margin: 4rem 0 2.5rem;
+    width: 12rem;
+    @media screen and (min-width: 768px) {
+      margin: 4rem 0 2.5rem;
+      width: 10rem;
+    }
+    @media screen and (min-width: 1200px) {
+      width: 14rem;
+    }
+  }
+
+  .title-style {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(33, 35, 55);
+    font-weight: 700;
+    font-size: 1.8rem;
+
+    @media screen and (min-width: 1200px) {
+      font-size: 2rem;
+    }
+  }
+
+  span {
+    font-size: 1rem;
+    max-width: 245px;
+    padding-bottom: 3rem;
+    @media screen and (min-width: 768px) {
+      font-size: 0.9rem;
+    }
+    @media screen and (min-width: 1200px) {
+      font-size: 1.1rem;
+      max-width: 270px;
+    }
+  }
+}
+
+.pay-money {
+  background-color: rgba(225, 173, 13, 0.2);
+  border-radius: 28px;
+  width: 100%;
+  transition: all 0.3s ease-in;
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+  @media screen and (min-width: 768px) {
+    width: 100%;
+  }
+
+  .icon-box {
+    margin: 4rem 0 2.5rem;
+    width: 12rem;
+    @media screen and (min-width: 768px) {
+      margin: 4rem 0 2.5rem;
+      width: 10rem;
+    }
+    @media screen and (min-width: 1200px) {
+      width: 14rem;
+    }
+  }
+
+  .title-style {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(33, 35, 55);
+    font-weight: 700;
+    font-size: 1.8rem;
+    @media screen and (min-width: 1200px) {
+      font-size: 2rem;
+    }
+  }
+
+  span {
+    font-size: 1rem;
+    max-width: 280px;
+    padding-bottom: 3rem;
+    @media screen and (min-width: 768px) {
+      font-size: 0.9rem;
+    }
+    @media screen and (min-width: 1200px) {
+      font-size: 1.1rem;
+      max-width: 350px;
+    }
+  }
+}
+
+.wishlist {
+  background-color: #3f66f64d;
+  border-radius: 28px;
+  width: 100%;
+  transition: all 0.3s ease-in;
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+  @media screen and (min-width: 768px) {
+    width: 100%;
+    margin-top: 1.5rem;
+  }
+
+  .icon-box {
+    margin: 4rem 0 2.5rem;
+    width: 12rem;
+    @media screen and (min-width: 768px) {
+      margin: 4rem 0 2.5rem;
+      width: 10rem;
+    }
+    @media screen and (min-width: 1200px) {
+      width: 14rem;
+    }
+  }
+
+  .title-style {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(33, 35, 55);
+    font-weight: 700;
+    font-size: 1.8rem;
+    @media screen and (min-width: 1200px) {
+      font-size: 2rem;
+    }
+  }
+
+  span {
+    text-align: center;
+    font-size: 1rem;
+    max-width: 280px;
+    padding-bottom: 3rem;
+    @media screen and (min-width: 768px) {
+      font-size: 0.9rem;
+    }
+    @media screen and (min-width: 1200px) {
+      font-size: 1.1rem;
+      max-width: 300px;
+    }
+  }
+}
+
+.give-away {
+  background-color: rgba(34, 173, 128, 0.2);
+  border-radius: 28px;
+  width: 100%;
+  transition: all 0.3s ease-in;
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+  @media screen and (min-width: 768px) {
+    width: 100%;
+    margin-top: 1.5rem;
+  }
+
+  .icon-box {
+    margin: 4rem 0 2.5rem;
+    width: 12rem;
+    @media screen and (min-width: 768px) {
+      margin: 4rem 0 2.5rem;
+      width: 10rem;
+    }
+    @media screen and (min-width: 1200px) {
+      width: 14rem;
+    }
+  }
+
+  .title-style {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(33, 35, 55);
+    font-weight: 700;
+    font-size: 1.8rem;
+    @media screen and (min-width: 1200px) {
+      font-size: 2rem;
+    }
+  }
+
+  span {
+    font-size: 1rem;
+    max-width: 260px;
+    padding-bottom: 3rem;
+    @media screen and (min-width: 768px) {
+      font-size: 0.9rem;
+    }
+    @media screen and (min-width: 1200px) {
+      font-size: 1.1rem;
+      max-width: 270px;
+    }
+  }
+}
+
+.pro-coming-soon {
+  position: relative;
+  background-color: rgba(223, 42, 68, 0.2);
+  border-radius: 28px;
+  width: 100%;
+  transition: all 0.3s ease-in;
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+  @media screen and (min-width: 768px) {
+    width: 100%;
+    margin-top: 1.5rem;
+  }
+
+  .icon-box {
+    margin: 4rem 0 2.5rem;
+    width: 12rem;
+    @media screen and (min-width: 768px) {
+      width: 10rem;
+    }
+    @media screen and (min-width: 1200px) {
+      width: 14rem;
+    }
+    .coming-soon {
+      padding: 0 1rem;
+      position: absolute;
+      top: 28px;
+      height: 36px;
+      right: 28px;
+      background-color: rgb(33, 35, 55);
+      border-radius: 32px;
+      @media screen and (min-width: 768px) {
+        height: 40px;
+      }
+      @media screen and (min-width: 1200px) {
+        height: 48px;
+        top: 36px;
+        right: 36px;
+        border-radius: 40px;
+      }
+      img {
+        width: 1rem;
+        @media screen and (min-width: 768px) {
+          width: 1.3rem;
+        }
+      }
+
+      p {
+        padding-top: 7px;
+        font-weight: 500;
+        padding-left: 8px;
+        font-family: 'Roboto', sans-serif;
+        color: #fff;
+        font-size: 1rem;
+        @media screen and (min-width: 768px) {
+          font-size: 1.2rem;
+        }
+        @media screen and (min-width: 1200px) {
+          padding-top: 10px;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+
+  .title-style {
+    text-align: center;
+    max-width: 280px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(33, 35, 55);
+    font-weight: 700;
+    font-size: 1.8rem;
+    @media screen and (min-width: 1200px) {
+      font-size: 2rem;
+      max-width: 400px;
+    }
+  }
+
+  span {
+    text-align: center;
+    font-size: 1rem;
+    max-width: 300px;
+    padding-bottom: 3rem;
+    @media screen and (min-width: 768px) {
+      font-size: 0.9rem;
+    }
+    @media screen and (min-width: 1200px) {
+      font-size: 1.1rem;
+      max-width: 320px;
+    }
+  }
+}
+
+.shop {
+  background-color: rgba(245, 113, 25, 0.2);
+  border-radius: 28px;
+  width: 100%;
+  transition: all 0.3s ease-in;
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+  @media screen and (min-width: 768px) {
+    width: 100%;
+    margin-top: 1.5rem;
+  }
+
+  .icon-box {
+    margin: 4rem 0 2.5rem;
+    width: 12rem;
+    @media screen and (min-width: 768px) {
+      margin: 4rem 0 2.5rem;
+      width: 10rem;
+    }
+    @media screen and (min-width: 1200px) {
+      width: 14rem;
+    }
+  }
+
+  .title-style {
+    text-align: center;
+    max-width: 280px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(33, 35, 55);
+    font-weight: 700;
+    font-size: 1.8rem;
+    @media screen and (min-width: 1200px) {
+      font-size: 2rem;
+    }
+  }
+
+  span {
+    text-align: center;
+    font-size: 1rem;
+    max-width: 280px;
+    padding-bottom: 3rem;
+    @media screen and (min-width: 768px) {
+      font-size: 0.9rem;
+    }
+    @media screen and (min-width: 1200px) {
+      font-size: 1.1rem;
+      max-width: 320px;
+    }
+  }
+}
+
+.tickets {
+  background-color: rgba(223, 36, 178, 0.2);
+  border-radius: 28px;
+  width: 100%;
+  transition: all 0.3s ease-in;
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+  @media screen and (min-width: 768px) {
+    width: 100%;
+    margin-top: 1.5rem;
+  }
+
+  .icon-box {
+    margin: 4rem 0 2.5rem;
+    width: 12rem;
+    @media screen and (min-width: 768px) {
+      width: 10rem;
+      margin: 4rem 0 2.5rem;
+    }
+    @media screen and (min-width: 1200px) {
+      width: 14rem;
+    }
+  }
+
+  .title-style {
+    text-align: center;
+    max-width: 280px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(33, 35, 55);
+    font-weight: 700;
+    font-size: 1.8rem;
+    @media screen and (min-width: 1200px) {
+      font-size: 2rem;
+    }
+  }
+
+  span {
+    text-align: center;
+    font-size: 1rem;
+    max-width: 280px;
+    padding-bottom: 3rem;
+    @media screen and (min-width: 768px) {
+      font-size: 0.9rem;
+    }
+    @media screen and (min-width: 1200px) {
+      font-size: 1.1rem;
+      max-width: 320px;
+    }
+  }
+}
+
+.virtual-cards {
+  background-color: rgba(57, 219, 54, 0.2);
+  position: relative;
+  border-radius: 28px;
+  width: 100%;
+  transition: all 0.3s ease-in;
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+  @media screen and (min-width: 768px) {
+    width: 100%;
+    margin-top: 1.5rem;
+  }
+
+  .icon-box {
+    margin: 4rem 0 2.5rem;
+    width: 16rem;
+
+    .coming-soon {
+      padding: 0 1rem;
+      position: absolute;
+      top: 28px;
+      height: 36px;
+      right: 28px;
+      background-color: rgb(33, 35, 55);
+      border-radius: 32px;
+      @media screen and (min-width: 768px) {
+        height: 40px;
+      }
+      @media screen and (min-width: 1200px) {
+        height: 48px;
+        top: 36px;
+        right: 36px;
+        border-radius: 40px;
+      }
+      img {
+        width: 1rem;
+        @media screen and (min-width: 768px) {
+          width: 1.3rem;
+        }
+      }
+
+      p {
+        padding-top: 7px;
+        font-weight: 500;
+        padding-left: 8px;
+        font-family: 'Roboto', sans-serif;
+        color: #fff;
+        font-size: 1rem;
+        @media screen and (min-width: 768px) {
+          font-size: 1.2rem;
+        }
+        @media screen and (min-width: 1200px) {
+          padding-top: 10px;
+          font-weight: 500;
+        }
+      }
+    }
+    @media screen and (min-width: 768px) {
+      width: 14rem;
+    }
+    @media screen and (min-width: 1200px) {
+      width: 20rem;
+    }
+  }
+
+  .title-style {
+    text-align: center;
+    max-width: 280px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(33, 35, 55);
+    font-weight: 700;
+    font-size: 1.8rem;
+    @media screen and (min-width: 1200px) {
+      font-size: 2rem;
+    }
+  }
+
+  span {
+    text-align: center;
+    font-size: 1rem;
+    max-width: 240px;
+    padding-bottom: 3rem;
+    @media screen and (min-width: 768px) {
+      font-size: 0.9rem;
+    }
+    @media screen and (min-width: 1024px) {
+      font-size: 1.1rem;
+      max-width: 265px;
+    }
+  }
+}
+
+.badges {
+  background-color: rgba(75, 96, 65, 0.2);
+  border-radius: 24px;
+  width: 100%;
+  transition: all 0.3s ease-in;
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+  @media screen and (min-width: 768px) {
+    width: 100%;
+    margin-top: 1.5rem;
+  }
+
+  .icon-box {
+    margin: 4rem 0 2.5rem;
+    width: 16rem;
+
+    @media screen and (min-width: 768px) {
+      margin: 4rem 0 2.5rem;
+      width: 14rem;
+    }
+    @media screen and (min-width: 1200px) {
+      width: 20rem;
+    }
+  }
+
+  .title-style {
+    text-align: center;
+    max-width: 280px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(33, 35, 55);
+    font-weight: 700;
+    font-size: 1.8rem;
+    @media screen and (min-width: 1200px) {
+      font-size: 2rem;
+    }
+  }
+
+  span {
+    text-align: center;
+    font-size: 1rem;
+    max-width: 250px;
+    padding-bottom: 3rem;
+    @media screen and (min-width: 768px) {
+      font-size: 0.9rem;
+    }
+    @media screen and (min-width: 1024px) {
+      font-size: 1.1rem;
+      max-width: 265px;
+    }
+  }
+}

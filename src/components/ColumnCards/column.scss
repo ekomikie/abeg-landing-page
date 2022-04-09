@@ -1,0 +1,62 @@
+.card-container {
+  width: 97.5%;
+  @media screen and (min-width: 768px) {
+    width: 92%;
+  }
+  @media screen and (min-width: 1024px) {
+    width: 94%;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 96%;
+  }
+  .card-1 {
+    width: 100%;
+    @media screen and (min-width: 768px) {
+      width: 47%;
+    }
+    @media screen and (min-width: 1200px) {
+      width: 31%;
+    }
+  }
+
+  .card-2 {
+    width: 100%;
+    @media screen and (min-width: 768px) {
+      width: 47%;
+    }
+    @media screen and (min-width: 1200px) {
+      width: 31%;
+    }
+  }
+
+  .card-3 {
+    width: 100%;
+    @media screen and (min-width: 768px) {
+      width: 47%;
+    }
+    @media screen and (min-width: 1200px) {
+      width: 31%;
+    }
+  }
+
+  .card-5 {
+    width: 100%;
+    @media screen and (min-width: 768px) {
+      width: 100%;
+    }
+    @media screen and (min-width: 1200px) {
+      width: 65.5%;
+    }
+  }
+
+  .card-6 {
+    width: 100%;
+    @media screen and (min-width: 768px) {
+      width: 47%;
+    }
+    @media screen and (min-width: 1024px) {
+      width: 48%;
+    }
+  }
+}
